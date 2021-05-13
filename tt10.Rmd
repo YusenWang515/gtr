@@ -3,7 +3,7 @@ title: "week 10 Tutorial"
 author: "Fan"
 date: "`r Sys.Date()`"
 output:
-  bookdown::html_output2
+  bookdown::document
 
 ---
 
@@ -11,5 +11,17 @@ output:
 ```{r libraries, message = FALSE}
 library(dplyr)
 library(ggplot2)
+```
+
+```{r}
+.libPaths()
+```
+
+```{r}
+renv::init()
+```
+
+```{r}
+renv::snapshot()
 ```
 
