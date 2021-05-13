@@ -1,0 +1,15 @@
+---
+title: "week 10 Tutorial"
+author: "Fan"
+date: "`r Sys.Date()`"
+output:
+  bookdown::html_output2
+
+---
+
+
+```{r libraries, message = FALSE}
+library(dplyr)
+library(ggplot2)
+```
+
